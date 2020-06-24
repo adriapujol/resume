@@ -27,7 +27,12 @@ body {
   grid-area: header;
   display: flex;
   align-items: center;
-  padding: 2em 2em 3.5em 2em;
+  padding: 2em 5em 3.5em 5em;
+}
+@media (max-width: 900px) {
+  .container-grid .header {
+    padding: 2em 3em 3.5em 3em;
+  }
 }
 .container-grid .header .about {
   display: flex;
