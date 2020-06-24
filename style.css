@@ -45,7 +45,7 @@ body {
   left: -20px;
 }
 .container-grid .header .about .statement {
-  padding: 1em 5em;
+  padding: 3em 5em;
   background-color: #f4d35e;
 }
 @media (max-width: 500px) {
@@ -53,12 +53,12 @@ body {
     align-self: center;
   }
   .container-grid .header .about .statement {
-    padding: 1em 2em;
+    padding: 3em 2em;
   }
 }
 @media (max-width: 950px) {
   .container-grid .header .about .statement {
-    padding: 1em 1em;
+    padding: 3em 2em;
   }
 }
 .container-grid .info {
@@ -168,7 +168,7 @@ body {
   grid-area: content;
   background-color: white;
   width: 100%;
-  padding: 5em 10em 5em 10em;
+  padding: 1em 10em 5em 10em;
 }
 .container-grid .history h3 {
   font-size: 2rem;
